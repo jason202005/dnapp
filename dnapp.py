@@ -33,7 +33,7 @@ def dna():
         st.session_state.firstpair.append(pairs)
         st.session_state.firsttype.append(type)
     if clear:
-        clean()
+        clean(1)
     col2.title("First Pairs")
     col2.code(st.session_state.firstpair)
     col2.title("Type of First Pairs")
